@@ -1,0 +1,64 @@
+* {
+    background-color: auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+}
+
+nav ul ul li {
+    width: 200px;
+}
+
+nav ul ul li a {
+    padding: 10px 20px;
+}
+
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li:hover a {
+    background-color: #555;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333; /* Cambiar al tema oscuro si está activado */
+        color: #fff; /* Cambiar el color del texto para que sea legible en el tema oscuro */
+    }
+}

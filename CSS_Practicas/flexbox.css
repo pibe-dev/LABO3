@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las filas se envuelvan en múltiples líneas */
+    justify-content: center; /* Centra las filas horizontalmente */
+}
+
+.row {
+    display: flex; /* Utiliza flexbox para alinear las celdas horizontalmente */
+    flex-wrap: wrap; /* Permite que las celdas se envuelvan en múltiples líneas */
+}
+
+.cell {
+    width: 100px; /* Ancho fijo para las celdas */
+    height: 50px; /* Altura fija para las celdas */
+    border: 1px solid black; /* Borde para visualización */
+    margin: 5px; /* Espaciado entre las celdas */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}

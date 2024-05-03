@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #f7ecd6; /* Color de fondo cálido */
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    background-color: #e59866; /* Color de fondo para el encabezado */
+    padding: 10px 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #e59866; 
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+
+h1 {
+    margin: 0;
+    color: #fff; /* Color del texto del encabezado */
+    text-align: center;
+}
+
+table {
+    /* width: 100vw;
+    align: center;
+    border-collapse: collapse;
+   */
+    display: flex;
+    flex-wrap: wrap; /* Permite que las filas se envuelvan en múltiples líneas */
+    justify-content: center; /* Centra las filas horizontalmente */
+}
+
+table, th, td {
+    border: 5px solid blue;
+}
+
+tr {
+    display: flex; /* Utiliza flexbox para alinear las celdas horizontalmente */
+    flex-wrap: wrap; /* Permite que las celdas se envuelvan en múltiples líneas */
+}
+
+
+th, td {
+    /* padding: 10px;
+    text-align: left;
+    width: 25vw; */
+    width: 300px; /* Ancho fijo para las celdas */
+    height: 200px; /* Altura fija para las celdas */
+    margin: 5px; /* Espaciado entre las celdas */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #e59866; /* Color de fondo para los botones */
+    color: #fff; /* Color del texto de los botones */
+    border: none;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+}
+
+button:hover {
+    background-color: #ca8246; /* Cambio de color al pasar el cursor */
+}

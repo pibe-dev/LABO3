@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    background-color: auto;
+  }
+  
+  .container {
+    /* width: 250px; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #FFEB3B;
+    padding: 10px;
+  }
+  
+  .box {
+    margin: 10px;
+    padding: 25px;
+    width:350px;
+    height:auto;
+    border: solid 5px #ff0000;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: scroll;
+  }
+  
+  #box1 { background: linear-gradient(to bottom right, blue, pink); }
+  #box2 { background: radial-gradient(red, yellow, blue, orange); }
+  #box3 { background: radial-gradient(circle, #4CAF50, hsl(262, 50%, 53%)); }
+  #box4 { background: radial-gradient(circle, #FF5722, #FF9800); }
+  #box5 { background: radial-gradient(circle, #9C27B0, #E91E63); }
+  #box6 { background: radial-gradient(circle, #607D8B, #9E9E9E); }
+  #box7 { background: radial-gradient(circle, #FFEB3B, #FFC107); }
+  #box8 { background: radial-gradient(lime, cyan); }
+  
+  /* @media screen and (max-width: 768px) {
+    .box {
+      width: 100%;
+    }
+  }
+   */
+
+   @media (min-width: 600px) and (max-width:940px) {
+     div.container {;background-color: orange;}
+   }

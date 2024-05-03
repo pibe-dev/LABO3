@@ -1,0 +1,13 @@
+
+div {
+    background-color: blue;
+}
+
+    img.imagenAl50_1 {
+        width: 50%;
+    }
+
+    img.imagenAl50_2 {
+        max-width: 50%;
+    }
+
